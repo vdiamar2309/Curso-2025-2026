@@ -12,13 +12,12 @@ public class Calculadora {
         int num2 = scanner.nextInt();
 
         System.out.println("Ingrese la operación (suma o resta): ");
-        String operacion = scanner.nextLine();
+        String operacion = scanner.next();
 
         int resultado;
 
         if (operacion.equals("suma")) {
-            resultado = num1
-                    + num2;
+            resultado = num1 + num2;
             System.out.println("El resultado de la suma es: " + resultado);
         } else if (operacion.equals("resta")) {
             resultado = num1 - num2;

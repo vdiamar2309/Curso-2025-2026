@@ -8,6 +8,5 @@ public class HolaMundo {
         String nombre = sc.nextLine();
 
         System.out.println("Hola " + nombre);
-
     }
 }
