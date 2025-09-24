@@ -6,7 +6,8 @@ public class HolaMundo {
         Scanner sc = new Scanner(System.in);
 
         String nombre = sc.nextLine();
-
+        int variable = 1;
+        System.out.println(variable);
         System.out.println("Hola " + nombre);
     }
 }
