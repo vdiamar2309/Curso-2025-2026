@@ -1,6 +1,4 @@
-import java.io.StreamCorruptedException;
-
-public class Multiplos1 {
+public class Primos {
     public static void main(String[] args) {
         int nums;
         int n = 100;
