@@ -10,6 +10,7 @@ public class TablasMultiplicar1 {
             for (tabla = 0; tabla <= 10; tabla++) {
                 int resultado = tabla * num;
                 System.out.println(num + "x" + tabla + "=" + resultado);
+                System.out.println(" ");
             }
         }
         else{
