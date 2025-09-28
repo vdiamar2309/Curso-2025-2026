@@ -12,10 +12,10 @@ public class SumaNPrimeros_4 {
             }
         } while (positivo < 0);
         int suma = 0;
-        for(int bucle = 0;bucle<=positivo;bucle++){
-            suma= suma+bucle;
-            if (bucle==positivo){
-                System.out.println("La suma de todos los numeros es: "+suma);
+        for (int bucle = 0; bucle <= positivo; bucle++) {
+            suma = suma + bucle;
+            if (bucle == positivo) {
+                System.out.println("La suma de todos los numeros es: " + suma);
             }
         }
     }
