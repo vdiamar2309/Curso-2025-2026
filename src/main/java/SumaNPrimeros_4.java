@@ -6,7 +6,7 @@ public class SumaNPrimeros_4 {
         int positivo = 0;
         do {
             System.out.println("Escribe un numero positivo");
-            positivo = sc.nextByte();
+            positivo = sc.nextInt();
             if (positivo < 0) {
                 System.out.println("Numero inválido");
             }
@@ -14,10 +14,9 @@ public class SumaNPrimeros_4 {
         int suma = 0;
         for (int bucle = 0; bucle <= positivo; bucle++) {
             suma = suma + bucle;
-            if (bucle == positivo) {
-                System.out.println("La suma de todos los numeros es: " + suma);
-            }
+
         }
+        System.out.println("La suma de todos los numeros es: " + suma);
     }
 }
 
