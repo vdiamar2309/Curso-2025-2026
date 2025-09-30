@@ -6,7 +6,7 @@ public class SumaNPrimeros_4 {
         int positivo = 0;
         do {
             System.out.println("Escribe un numero positivo");
-            positivo = sc.nextIn();
+            positivo = sc.nextInt();
             if (positivo < 0) {
                 System.out.println("Numero inválido");
             }
