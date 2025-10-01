@@ -7,11 +7,21 @@ public class EjercicioSeis {
         int a = sc.nextInt();
         System.out.println("Escribe otro numero");
         int b = sc.nextInt();
-        int resultado =0;
-        for (int bucle = 0;bucle<Math.abs(b);) {
-        c+a;
-        bucle++;
+        int c = 0;
+
+        for (int bucle = 0; bucle < Math.abs(b); bucle++) {
+
+            c += a;
         }
-        System.out.println(a+"x"+b+"="+resultado);
+
+        if (b < 0) {
+            c = -c;
+        }
+
+        System.out.printf("La multiplicación es %d", c);
     }
 }
+
+
+
+
